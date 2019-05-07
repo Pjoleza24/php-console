@@ -1,0 +1,47 @@
+<?php
+
+
+// 895204984:AAF6Sdlnhuz9G3n3OxiuLIZW5i1Q3JsVfUY
+// :338995132
+
+$url = "https://api.telegram.org/bot895204984:AAF6Sdlnhuz9G3n3OxiuLIZW5i1Q3JsVfUY/sendMessage";
+
+$postfields = array(
+      'chat_id' =>
+      'disable_notification'
+      'parse_mode' => "HTML"
+       // 'photo' => 'https://image.flaticon.com/teams/new/1-freepick.jpg',
+      'text' => "<b>$text",
+
+);
+
+
+
+
+
+$id = $_REQUEST['id'];
+	$token = $_REQUEST['token'];
+	$from = $_REQUEST['from'];
+	$to = $_REQUEST['to'];
+	$text = $_REQUEST['text'];
+
+	if ($token == "[your_token]") {
+		echo "Thank you $from for sending $message";
+	} else {
+		echo "Incorrect token";
+		die;
+	}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ?>
+
+
+
+
